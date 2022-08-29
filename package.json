@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
+    "build": "next build",
     "dev": "next dev",
-    "build": "next build && next export && yarn format",
-    "start": "next start",
+    "format": "prettier --write .",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "start": "next start"
   },
   "browserslist": [
     "> 0.5%",
@@ -21,6 +21,11 @@
     "Android >= 4.4",
     "Opera >= 30"
   ],
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
   "dependencies": {
     "autoprefixer": "^10.4.8",
     "next": "12.2.3",

@@ -1,3 +1,5 @@
+const postcssSorting = require('./utils/postcssSorting')
+
 module.exports = {
   plugins: {
     '@fullhuman/postcss-purgecss': process.env.NODE_ENV === 'production' && {
@@ -13,6 +15,11 @@ module.exports = {
     },
     autoprefixer: {},
     'postcss-sort-media-queries': {},
+    'postcss-sorting': {
+      order: [...postcssSorting.order],
+      'properties-order': [...postcssSorting.propertiesOrder],
+      'unspecified-properties-position': 'bottom',
+    },
     tailwindcss: {},
   },
 }

@@ -7,20 +7,24 @@
     "lint": "next lint",
     "start": "next start"
   },
-  "browserslist": [
-    "> 0.5%",
-    ">= 1%",
-    "last 1 major version",
-    "not dead",
-    "Chrome >= 45",
-    "Firefox >= 38",
-    "Edge >= 12",
-    "Explorer >= 10",
-    "iOS >= 9",
-    "Safari >= 9",
-    "Android >= 4.4",
-    "Opera >= 30"
-  ],
+  "browserslist": {
+    "development": [
+      "> 0.5%"
+    ],
+    "production": [
+      ">= 1%",
+      "last 1 major version",
+      "not dead",
+      "Chrome >= 45",
+      "Firefox >= 38",
+      "Edge >= 12",
+      "Explorer >= 10",
+      "iOS >= 9",
+      "Safari >= 9",
+      "Android >= 4.4",
+      "Opera >= 30"
+    ]
+  },
   "prettier": {
     "printWidth": 100,
     "semi": false,
@@ -46,12 +50,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.16",
     "postcss-sort-media-queries": "^4.2.1",
-    "postcss-sorting": "^7.0.1",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
-    "stylelint": "^14.11.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "prettier-plugin-tailwindcss": "^0.1.13"
   }
 }

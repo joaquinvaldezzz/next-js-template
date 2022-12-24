@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@prettier/plugin-xml": "^2.2.0",
     "eslint": "^8.30.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "13.1.0",

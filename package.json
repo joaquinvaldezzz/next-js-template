@@ -25,11 +25,6 @@
       "Opera >= 30"
     ]
   },
-  "prettier": {
-    "printWidth": 100,
-    "semi": false,
-    "singleQuote": true
-  },
   "dependencies": {
     "autoprefixer": "^10.4.13",
     "next": "13.1.0",
@@ -45,7 +40,6 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "13.1.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
